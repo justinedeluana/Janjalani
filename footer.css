@@ -1,0 +1,23 @@
+footer {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

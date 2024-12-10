@@ -1,0 +1,21 @@
+.card {
+    transition: transform 0.2s;
+    width: 12rem; /* Set a fixed width for the card */
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    height: 250px; /* Set a fixed height for the carousel item */
+}
+.carousel-item img {
+    max-height: 150px; /* Limit the height of the image */
+    object-fit: cover; /* Ensure the image covers the space */
+}
+
+/* Custom rule */
+.carousel-item {
+    height: 100%;
+}
